@@ -1,0 +1,16 @@
+{
+  "name": "mines-clone",
+  "version": "1.0.0",
+  "description": "minesweeper clone",
+  "main": "server.js",
+  "scripts": {
+    "server": "node ./server.js"
+  },
+  "keywords": [],
+  "author": "unknown-characteristics",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "path": "^0.12.7"
+  }
+}

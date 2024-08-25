@@ -1,0 +1,28 @@
+<html lang = "en">
+    <head>
+        <title>Mines</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Mines game</h1>
+        <div id="main_game_area">
+            <div id="game_settings">
+                <form action="" method="" id="game_config_form">
+                    <label for="row_input">Row number: </label>
+                    <input type="number" id="row_input" min="1" max="100" value="3" required />
+                    <br />
+                    <label for="col_input">Column number: </label>
+                    <input type="number" id="col_input" min="1" max="100" value="3" required />
+                    <br />
+                    <label for="mine_input">Mine number: </label>
+                    <input type="number" id="mine_input" min="0" max="10000" value="2" required />
+                    <br />
+                    <input type="button" id="game_start_button" value="New game" />
+                </form>
+            </div>
+            <div id="game_header"></div>
+            <div id="game_board"></div>
+        </div>
+        <script src="/scripts/mineview.js" type="module"></script>
+    </body>
+</html>
